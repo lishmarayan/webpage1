@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="formsty.css">
+    <title>Membership Survey</title>
+</head>
+
+<body>
+    <h1>
+        <center> Membership Satisfaction Survey</center>
+    </h1>
+    <div class="container">
+        <form>
+            <div class="name">
+                <label>Name: </label>
+                <label class="astreik">*</label>
+            </div>
+            <div class="nameinput">
+                <input type="text" placeholder="First" required>
+                <input type="text" placeholder="Last" required>
+            </div>
+            <div class="address">
+                <label>Address: </label>
+                <label class="astreik">*</label><br>
+                <input type="text" placeholder="Street Address" required>
+                </div>
+                <div class="regions">
+                    <input type="text" placeholder="City" required>
+                    <input type="text" placeholder="Region" required>
+                </div>
+                <div class="postal">
+                    <input type="text" placeholder="Postal/ZipCode" required>
+                    <select required>
+                        <option value="Romania" class="placeholder">Romania</option>
+                        <option value="India">India</option>
+                        <option value="UK">UK</option>
+                    </select>
+                </div>
+                <div class="phone">
+                    <label for="">Phone: </label><br>
+                    <input type="text" placeholder="### ### ####">
+                </div>
+            <div class="accno">
+                <label for="acc_no"> Account Number (located in the top right hand corner of your
+                    billing statement statement in bold)</label>
+                <label class="astreik">*</label><br>
+                <input type="text" required>
+            </div>
+            <div class="email">
+                <label> Email Address: </label><br>
+                <input type="text">
+            </div>
+            <div class="question">
+                <label> 1) How long have you been a member of X Company?</label>
+                <label class="astreik">*</label><br>
+                <input type="radio" id="<1" name="experience" required>
+                <label> Less than a year </label><br>
+                <input type="radio" id="1-5" name="experience">
+                <label for="">1-5 years</label><br>
+                <input type="radio" id="6-10" name="experience">
+                <label for="">6-10 years</label><br>
+                <input type="radio" id="11-19 years" name="experience">
+                <label for=""> 11-19 years </label><br>
+                <input type="radio" id="20+years" name="experience">
+                <label for="">20+ years</label>
+            </div>
+            <input type="submit">
+        </form>
+    </div>
+</body>
+
+</html>
